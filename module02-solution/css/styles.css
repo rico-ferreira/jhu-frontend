@@ -2,16 +2,58 @@
 	box-sizing: border-box;
 }
 
+body {
+	font-family: "Helvetica","Arial","sans-serif";
+}
+
 section {
-	margin-right: 15px;
+	margin-left: 8px;
+	margin-right: 8px;
 	margin-bottom: 15px;
 	border: 1px solid black;
 	padding: 10px;
+	background-color: #fbede1;
+}
+
+section>p{
+	clear:both;
+}
+
+h1{
+	text-align: center;
+}
+
+h2 {
+	margin: 0px;
+	padding: 10px;
+	text-align: center;
+	float: right;
+	clear: both;
+	position: relative;
+	bottom: 10px;
+	left: 10px;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
 }
 
 .row {
 	width: 100%;
 	clear: both;
+}
+
+#charmander {
+	background-color: #e15423;
+	color: #f8b757;
+}
+
+#squirtle {
+	background-color: #88c2fd;
+	color: #f5ea7c;
+}
+
+#bulbasaur {
+	background-color: #006359;
+	color: #7cbeb3;
 }
 
 /* Large Devices */
