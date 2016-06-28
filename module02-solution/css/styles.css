@@ -4,6 +4,7 @@
 
 body {
 	font-family: "Helvetica","Arial","sans-serif";
+	font-size: 1em;
 }
 
 section {
@@ -21,9 +22,11 @@ section>p{
 
 h1{
 	text-align: center;
+	font-size: 1.75em;
 }
 
 h2 {
+	font-size: 1.25em;
 	margin: 0px;
 	padding: 10px;
 	text-align: center;
